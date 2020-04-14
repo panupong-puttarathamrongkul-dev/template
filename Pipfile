@@ -1,0 +1,26 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+mypy = "*"
+asserts = "*"
+pylint-django = "*"
+pylint = "*"
+"autopep8" = "*"
+dj-database-url = "*"
+django-stubs = "*"
+
+[packages]
+django = "*"
+django-cors-headers = "*"
+graphene-django = "*"
+gunicorn = "*"
+whitenoise = "*"
+numpy = "*"
+pandas = "*"
+
+[requires]
+python_version = "3.8"

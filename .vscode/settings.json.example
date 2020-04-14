@@ -1,0 +1,33 @@
+{
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "editor.codeActionsOnSave": {
+		"source.organizeImports": true
+    },
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/__pycache__": true,
+    },
+    "files.autoSave": "afterDelay",
+    "files.autoSaveDelay": 1000,
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "python.jediEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.formatting.provider": "autopep8",
+    "python.formatting.autopep8Args": ["--max-line-length", "80", "--experimental"],
+    "python.sortImports.args": ["-rc", "--atomic"],
+    "[python]": {
+        "editor.rulers": [87],
+        "editor.formatOnSave": true,
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false
+    }
+}
